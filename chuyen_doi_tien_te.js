@@ -5,16 +5,16 @@ function ChangeMoney() {
     let Result;
 
 
-    if (FromC == "USD" && To == "VND") {
-        Result = "Result: " + (Amount * 23000) + " Đ";
+    if (FromC == "Man" && To == "VND") {
+        Result = "Result: " + (Amount * 1660700) + " Đ";
     }
-    else if (FromC == "VND"&& To =="USD"){
-        Result = "Result: "+ (Amount / 23000) + " $";
+    else if (FromC == "VND"&& To =="Man"){
+        Result = "Result: "+ (Amount / 1660700) + " JPY";
     }
     else if (FromC == "VND") {
         Result = "Result: " + Amount + " Đ"
     } else {
-        Result = "Result: " + Amount + " $"
+        Result = "Result: " + Amount + " JPY"
     }
 
     document.getElementById("Result").innerHTML = Result;
