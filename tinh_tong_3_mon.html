@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function calculateScores() {
+        var vatLy = parseFloat(prompt("Nhập điểm Vật lý:"));
+        var hoaHoc = parseFloat(prompt("Nhập điểm Hóa học:"));
+        var sinhHoc = parseFloat(prompt("Nhập điểm Sinh học:"));
+        var tong = vatLy + hoaHoc + sinhHoc;
+        var diemTrungBinh = tong / 3;
+        alert("Tổng điểm: " + tong);
+        alert("Điểm trung bình: " + diemTrungBinh.toFixed(3));
+    }
+    calculateScores();
+</script>
+</body>
+</html>
