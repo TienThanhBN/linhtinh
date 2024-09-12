@@ -19,3 +19,4 @@ function ChangeMoney() {
 
     document.getElementById("Result").innerHTML = Result;
 }
+

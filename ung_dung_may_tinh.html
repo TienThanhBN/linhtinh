@@ -5,17 +5,14 @@
     <title>Title</title>
 </head>
 <body>
-<form>
-    <h2>Caculator</h2>
-    <input type="number" value="nhập số ở đây">
-    <input type="number" value="nhập số ở đây">
-    <br>
-    <button id="+" onclick="Calculate()">Addition(+)</button>
-    <button id="-" onclick="Calculate()">Subtraction(-)</button>
-    <button id="*" onclick="Calculate()">Multiplication(x)</button>
-    <button id="/" onclick="Calculate()">Division(/)</button>
-    <br>
-    <p id="Result Division: "></p>
-</form>
+<input type="number" id="num1" placeholder="Nhập số thứ nhất">
+<input type="number" id="num2" placeholder="Nhập số thứ hai">
+<button onclick = "add()">Cộng</button>
+<button onclick="sub()">Trừ</button>
+<button onclick="core()">Nhân</button>
+<button onclick="divide()">Chia</button>
+<h3>Result: </h3>
+<div id="result">Kết quả</div>
+<script src="ung_dung_may_tinh.js"></script>
 </body>
 </html>

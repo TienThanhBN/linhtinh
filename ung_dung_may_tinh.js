@@ -1,8 +1,24 @@
-function Caculate() {
-let Addition = document.getElementById("Addition").value;
-let Subtraction = document.getElementById("Subtraction").value;
-let Multiplication = document.getElementById("Multiplication").value;
-let Division = document.getElementById("Division").value;
-let Result;
-
+function add() {
+    let number1 = document.getElementById("num1").value;
+    let number2 = document.getElementById("num2").value;
+    let result = Number(number1) + Number(number2);
+    document.getElementById("result").innerHTML = result;
+}
+function sub() {
+    let number1 = document.getElementById("num1").value;
+    let number2 = document.getElementById("num2").value;
+    let result = Number(number1) + Number(number2);
+    document.getElementById("result").innerHTML = result;
+}
+function core() {
+    let number1 = document.getElementById("num1").value;
+    let number2 = document.getElementById("num2").value;
+    let result = Number(number1) * Number(number2);
+    document.getElementById("result").innerHTML = result;
+}
+function divide() {
+    let number1 = document.getElementById("num1").value;
+    let number2 = document.getElementById("num2").value;
+    let result = Number(number1) / Number(number2);
+    document.getElementById("result").innerHTML = result;
 }
